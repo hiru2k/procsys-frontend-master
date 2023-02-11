@@ -1,0 +1,25 @@
+{
+	"requests": {
+		"common": "orders"
+	},
+	"suppliers": {
+		"common": "suppliers",
+		"products": {
+			"common": "suppliers/{supplierId}/products"
+		}
+	},
+	"sites": {
+		"common": "sites",
+		"withoutManager": "sites/without-user"
+	},
+	"users": {
+		"common": "users"
+	},
+	"siteManagers": {
+		"common": "site-managers"
+	},
+	"auth": {
+		"common": "auth",
+		"login": "auth/login"
+	}
+}

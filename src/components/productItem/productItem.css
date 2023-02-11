@@ -1,0 +1,61 @@
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+  border: 1px solid white;
+}
+
+#customers td, #customers th {
+    border: 1px solid RED;
+  padding: 8px;
+  
+}
+
+#customers tr:nth-child(even){background-color: solid white;}
+
+#customers tr:hover {background-color: solid white;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+
+  color: rgb(13, 12, 12);
+}
+
+
+.row_btn{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.row_btn a{
+    width: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 6px;
+}
+
+#btn_view{
+    border-color: #04AA6D;
+    color: green;
+    margin-left: 5px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+#btn_edit{
+    background: green;
+    margin-left: 5px;
+}
+.product_card input{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+}

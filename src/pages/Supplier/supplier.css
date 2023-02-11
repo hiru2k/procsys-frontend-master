@@ -1,0 +1,35 @@
+.blue-table table {
+    font-family:  sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 15px;
+    border: 10px
+  }
+  .blue-table tr:nth-child(even){background-color: #989494}
+  
+  .blue-table th {
+    font-size: 18px;
+    text-align: center;
+    padding: 12px 12px 12px 12px;
+    background-color: #0376c4;
+    color: rgb(105, 99, 99);
+  }
+  
+  .blue-table table,
+  .blue-table td {
+    padding: 8px 8px 8px 15px;
+    border: 100px;
+    text-align: center;
+  }
+  
+  .blue-table .table100.ver1 {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0px 40px 0px rgba(163, 70, 70, 0.15);
+    -moz-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  }
